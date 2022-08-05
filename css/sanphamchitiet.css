@@ -1,0 +1,94 @@
+a{
+    
+    text-align: left;
+    font-size: 0.9em;
+    color: var(--cam);
+    text-decoration: none;
+}
+p,li{
+    font-size: 1.1em;
+}
+.gachngang{
+    background-color: #cdcdcd;
+    height: 4px;
+}
+.sanphamchitiet{
+    display: flex;
+    justify-content: space-between;
+}
+.sanphamchitiet-img{
+    width: 49%;
+}
+.sanphamchitiet-img img{
+    width: 100%;
+}
+.chitietsanpham{
+    width: 49%;
+    padding: 20px;
+}
+.ctsp-header{
+    color: gray;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.ctsp-header a{
+    color: gray;
+}
+.ctsp-header a:hover{
+    color: rgb(97, 97, 97);
+}
+.ctsp-gia{
+    font-weight: bold;
+    font-size: 1.8em;
+}
+.card{
+    margin-top: 20px;
+    display: block;
+    border: none;
+    margin-bottom: 20px;
+}
+input[type=number]{
+    width: 80px;
+    padding: 5px 13px;
+    box-sizing: border-box;
+    border: 3px solid #cdcdcd;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;;
+    border-radius: 3px;
+}
+.card-number{
+    width: 80px;
+}
+input:focus{
+    border: 3px solid #8f8f8f;
+}
+.card-buy{
+    margin-left: 15px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    padding: 8px 16px;
+    border: none;
+    background-color: var(--cam);
+}
+.card-buy:hover{
+    box-shadow: 0 0 3px gray;
+}
+.social{
+    margin-top: 40px;
+    color: #cdcdcd;
+    font-size: 1.2em;
+}
+.social button{
+    background-color: white;
+    border: 2px #cdcdcd solid;
+    border-radius: 60px;
+    padding: 2px;
+    width: 38px;
+}
+.social button:hover{
+    background-color: #446084;
+    color: #cdcdcd;
+}

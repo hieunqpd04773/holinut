@@ -1,0 +1,121 @@
+h2{
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+.gioHang{
+    display: flex;
+    padding: 20px 0px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.gioHang-sanPham {
+    width: 63%;
+    border-right: 2px rgb(212, 212, 212) solid;
+}
+.gioHang-tinhTien{
+    width: 35%;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 20px;
+    box-shadow: 0 0 5px #bdbdbd;
+}
+table{
+    width: 90%;
+    border: none;
+    margin-bottom: 16px;
+}
+td, th{
+    padding: 10px 0px;
+}
+th{
+    border-bottom: 3px solid #cdcdcd;
+    text-transform: uppercase;
+}
+td{
+    border-bottom: 1px solid #cdcdcd;
+}
+.gioHang-sanPham input[type=number]{
+    width: 50px;
+}
+input[type=submit]{
+    margin-top: 20px;
+    padding: 8px 16px;
+    background-image: linear-gradient(#bae422, #9cc018);
+    box-shadow: 3px 3px 5px rgb(211, 211, 211);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+}
+.table-xoa button{
+    border: none;
+    background-color: #ececec;
+}
+.table-anh img{
+    width: 70px;
+    height: 70px;
+}
+.table-tensp{
+    width: 30%;
+}
+table .table-xoa a {
+    outline: none;
+    background-color: #ececec;
+    padding: 8px;
+    border-radius: 3px;
+}
+.table-xoa{
+    border-bottom: 1px rgb(212, 212, 212) solid;
+}
+a{
+    text-align: left;
+    font-size: 0.9em;
+    color: var(--cam);
+    text-decoration: none;
+}
+a:hover{
+    color: var(--xanh);
+}
+.gioHang-tinhTien-btn{
+    width: 100%;
+    text-align: center;
+}
+.thanhToan{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.form-thanhToan{
+    border-top: 2px rgb(212, 212, 212) solid;;
+    width: 63%; 
+}
+h3{
+    font-size: 1.2em;
+    margin-top: 30px;
+}
+label{
+    font-weight: bold;
+}
+.form-thanhToan form{
+    width: 85%;
+    margin: auto;
+}
+.form-thanhToan input,textarea{
+    max-width: 95%;
+    width: 100%;
+    padding: 8px 16px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #cdcdcd;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;;
+    border-radius: 3px;
+}
+input[type=text]:focus {
+    border: 3px solid #8f8f8f;
+}
+.gioHang-tinhTien table td span{
+    font-weight: bold;
+    float: right;
+}

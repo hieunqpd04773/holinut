@@ -1,0 +1,28 @@
+<?php
+
+if(isset($_GET['id'])){
+    session_start();
+    $id=$_GET['id'];
+    require 'database.php';
+    $sql1="SELECT * FROM khachhang where username='".$id."'";
+    $result1=$db->query($sql1);
+    $rs=$result1->fetch();
+}
+if(isset($_POST['update'])){
+    $maKH=$_POST['id'];
+    $tenKH=$_POST['tenKH'];
+    $username=$_POST['username'];
+    $password=$_POST['password'];
+    $email=$_POST['emailKH'];
+    $soDT=$_POST['soDT'];
+    $diachiKH=$_POST['diachiKH'];
+
+    require 'database.php';
+    $sql= "UPDATE khachhang set tenKH='".$tenKH."',username='".$username."',password='".$password."',email='".$email."',soDT='".$soDT."',diachiKH='".$diachiKH."'where maKH='".$maKH."'";
+    $result=$db ->exec($sql);
+    echo '<script language="javascript">';
+    echo 'alert("Cập Nhật Thành Công")';
+    echo '</script>';
+
+  }
+?>
